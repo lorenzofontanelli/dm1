@@ -1,0 +1,340 @@
+(0002,0000)	Group Length                                    	VR: UL	Value: 240 
+(0002,0001)	File Meta Information Version                   	VR: OB	Value: 0
+(0002,0002)	Media Storage SOP Class UID                     	VR: UI	Value: 1.2.840.10008.5.1.4.1.1.4
+(0002,0003)	Media Storage SOP Instance UID                  	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.15405.1682496191.459
+(0002,0010)	Transfer Syntax UID                             	VR: UI	Value: 1.2.840.10008.1.2.4.70
+(0002,0012)	Implementation Class UID                        	VR: UI	Value: 1.2.826.0.1.3680043.2.97.255.255.3.0.6.0.5.1.8.0
+(0002,0013)	Implementation Version Name                     	VR: SH	Value:
+(0002,0016)	Source Application Entity Title                 	VR: AE	Value:
+(0008,0005)	Specific Character Set                          	VR: CS	Value: ISO_IR 100
+(0008,0008)	Image Type                                      	VR: CS	Value: ORIGINAL\PRIMARY\OTHER
+(0008,0016)	SOP Class UID                                   	VR: UI	Value: 1.2.840.10008.5.1.4.1.1.4
+(0008,0018)	SOP Instance UID                                	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.15405.1682496191.459
+(0008,0020)	Study Date                                      	VR: DA	Value: 20230426
+(0008,0021)	Series Date                                     	VR: DA	Value: 20230426
+(0008,0022)	Acquisition Date                                	VR: DA	Value: 20230426
+(0008,0023)	Content Date                                    	VR: DA	Value: 20230426
+(0008,0030)	Study Time                                      	VR: TM	Value: 141437
+(0008,0031)	Series Time                                     	VR: TM	Value: 142209
+(0008,0032)	Acquisition Time                                	VR: TM	Value: 142209
+(0008,0033)	Content Time                                    	VR: TM	Value: 142209
+(0008,0050)	Accession Number                                	VR: SH	Value: 7-409-4873806 
+(0008,0060)	Modality                                        	VR: CS	Value: MR
+(0008,0070)	Manufacturer                                    	VR: LO	Value: GE MEDICAL SYSTEMS
+(0008,0080)	Institution Name                                	VR: LO	Value: 
+(0008,0090)	Referring Physician's Name                      	VR: PN	
+(0008,1010)	Station Name                                    	VR: SH	Value: MRGE3T
+(0008,1030)	Study Description                               	VR: LO	Value: RM
+(0008,103E)	Series Description                              	VR: LO	Value: Ax DWI
+(0008,1090)	Manufacturer's Model Name                       	VR: LO	Value: DISCOVERY MR750 
+(0008,1111)	Referenced Performed Procedure Step Sequence    	VR: SQ	
+	(0008,1150)	Referenced SOP Class UID                        	VR: UI	Value: 1.2.840.10008.3.1.2.3.3
+	(0008,1155)	Referenced SOP Instance UID                     	VR: UI	Value: 1.2.840.113619.6.374.6688413764406982606505377921031424825
+(0008,1140)	Referenced Image Sequence                       	VR: SQ	
+	(0008,1150)	Referenced SOP Class UID                        	VR: UI	Value: 1.2.840.10008.5.1.4.1.1.4
+	(0008,1155)	Referenced SOP Instance UID                     	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.15405.1682496190.299
+	(0008,1150)	Referenced SOP Class UID                        	VR: UI	Value: 1.2.840.10008.5.1.4.1.1.4
+	(0008,1155)	Referenced SOP Instance UID                     	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.15405.1682496190.306
+(0009,0010)	                                                	VR: LO	Value: GEMS_IDEN_01
+(0009,1002)	                                                	VR: SH	Value: MRGE
+(0009,1004)	                                                	VR: SH	Value: SIGNA 
+(0009,1027)	                                                	VR: SL	Value: 1682518929 
+(0009,1030)	                                                	VR: SH	Value: B51142110 
+(0009,1031)	                                                	VR: SH	Value: 9999
+(0009,10E3)	                                                	VR: UI	Value: 1.2.840.113619.1.374.5.15512023.3735979
+(0009,10E9)	                                                	VR: SL	Value: 1682518929 
+(0010,0010)	Patient's Name                                  	VR: PN	Value: 
+(0010,0020)	Patient ID                                      	VR: LO	Value:  
+(0010,0030)	Patient's Birth Date                            	VR: DA	Value:
+(0010,0040)	Patient's Sex                                   	VR: CS	Value:  
+(0010,1010)	Patient's Age                                   	VR: AS	Value: 
+(0010,1030)	Patient's Weight                                	VR: DS	Value:
+(0010,21B0)	Additional Patient History                      	VR: LT	
+(0018,0020)	Scanning Sequence                               	VR: CS	Value: EP\SE 
+(0018,0021)	Sequence Variant                                	VR: CS	Value: NONE
+(0018,0022)	Scan Options                                    	VR: CS	Value: SAT_GEMS\EPI_GEMS\ACC_GEMS\PFF\SP 
+(0018,0023)	MR Acquisition Type                             	VR: CS	Value: 2D
+(0018,0025)	Angio Flag                                      	VR: CS	Value: N 
+(0018,0050)	Slice Thickness                                 	VR: DS	Value: 4 
+(0018,0080)	Repetition Time                                 	VR: DS	Value: 5122
+(0018,0081)	Echo Time                                       	VR: DS	Value: 96.2
+(0018,0083)	Number of Averages                              	VR: DS	Value: 4 
+(0018,0084)	Imaging Frequency                               	VR: DS	Value: 127.762603
+(0018,0085)	Imaged Nucleus                                  	VR: SH	Value: 1H
+(0018,0086)	Echo Number(s)                                  	VR: IS	Value: 1 
+(0018,0087)	Magnetic Field Strength                         	VR: DS	Value: 3 
+(0018,0088)	Spacing Between Slices                          	VR: DS	Value: 4.5 
+(0018,0091)	Echo Train Length                               	VR: IS	Value: 1 
+(0018,0093)	Percent Sampling                                	VR: DS	Value: 100 
+(0018,0094)	Percent Phase Field of View                     	VR: DS	Value: 100 
+(0018,0095)	Pixel Bandwidth                                 	VR: DS	Value: 1953.12 
+(0018,1000)	Device Serial Number                            	VR: LO	Value: 0000000B51142110
+(0018,1020)	Software Version(s)                             	VR: LO	Value: 25\LX\MR Software release:DV25.0_R02_1549.b 
+(0018,1030)	Protocol Name                                   	VR: LO	Value: NRX
+(0018,1088)	Heart Rate                                      	VR: IS	Value: 0 
+(0018,1090)	Cardiac Number of Images                        	VR: IS	Value: 0 
+(0018,1094)	Trigger Window                                  	VR: IS	Value: 0 
+(0018,1100)	Reconstruction Diameter                         	VR: DS	Value: 220 
+(0018,1250)	Receive Coil Name                               	VR: SH	Value: 8HRBRAIN
+(0018,1310)	Acquisition Matrix                              	VR: US	Value: 160 0 0 256 
+(0018,1312)	In-plane Phase Encoding Direction               	VR: CS	Value: COL 
+(0018,1314)	Flip Angle                                      	VR: DS	Value: 90
+(0018,1315)	Variable Flip Angle Flag                        	VR: CS	Value: N 
+(0018,1316)	SAR                                             	VR: DS	Value: 0.88633 
+(0018,5100)	Patient Position                                	VR: CS	Value: HFS 
+(0018,9087)	Diffusion b-value                               	VR: FD	Value: 1000.000000 
+(0019,0010)	                                                	VR: LO	Value: GEMS_ACQU_01
+(0019,100F)	                                                	VR: DS	Value: 304.100006
+(0019,1011)	                                                	VR: SS	Value: 0 
+(0019,1012)	                                                	VR: SS	Value: 0 
+(0019,1017)	                                                	VR: SS	Value: 16 
+(0019,1018)	                                                	VR: LO	Value: I 
+(0019,1019)	                                                	VR: DS	Value: -62.3666
+(0019,101A)	                                                	VR: LO	Value: S 
+(0019,101B)	                                                	VR: DS	Value: 64.5423 
+(0019,101E)	                                                	VR: DS	Value: 220.000000
+(0019,105A)	                                                	VR: FL	Value: 148538016.000000 
+(0019,107D)	                                                	VR: DS	Value: 0 
+(0019,107E)	                                                	VR: SS	Value: 1 
+(0019,107F)	                                                	VR: DS	Value: 0.000000
+(0019,1081)	                                                	VR: SS	Value: 1 
+(0019,1084)	                                                	VR: DS	Value: 1.772660
+(0019,1087)	                                                	VR: DS	Value: 0.000000
+(0019,1088)	                                                	VR: SS	Value: 0 
+(0019,108A)	                                                	VR: SS	Value: 13 
+(0019,108B)	                                                	VR: SS	Value: 13 
+(0019,108D)	                                                	VR: DS	Value: 0 
+(0019,108F)	                                                	VR: SS	Value: 1 
+(0019,1090)	                                                	VR: SS	Value: 0 
+(0019,1091)	                                                	VR: DS	Value: 0.000000
+(0019,1092)	                                                	VR: SL	Value: 0 
+(0019,1093)	                                                	VR: DS	Value: 1277626030
+(0019,1094)	                                                	VR: SS	Value: 119 
+(0019,1095)	                                                	VR: SS	Value: 13 
+(0019,1096)	                                                	VR: SS	Value: 13 
+(0019,1097)	                                                	VR: SL	Value: 197152 
+(0019,109B)	                                                	VR: SS	Value: 1 
+(0019,109C)	                                                	VR: LO	Value: epi2
+(0019,109D)	                                                	VR: DT	Value: 20160407151847
+(0019,109E)	                                                	VR: LO	Value: EPI2
+(0019,109F)	                                                	VR: SS	Value: 3 
+(0019,10A0)	                                                	VR: SS	Value: 0 
+(0019,10A1)	                                                	VR: SS	Value: 0 
+(0019,10A2)	                                                	VR: SL	Value: 40988 
+(0019,10A3)	                                                	VR: UL	Value: 0 
+(0019,10A4)	                                                	VR: SS	Value: 0 
+(0019,10A7)	                                                	VR: DS	Value: 1.000000
+(0019,10A8)	                                                	VR: DS	Value: 0.000000
+(0019,10A9)	                                                	VR: DS	Value: 0.000000
+(0019,10AA)	                                                	VR: DS	Value: 0.000000
+(0019,10AB)	                                                	VR: DS	Value: 0.000000
+(0019,10AC)	                                                	VR: DS	Value: 0.000000
+(0019,10AD)	                                                	VR: DS	Value: 0.000000
+(0019,10AE)	                                                	VR: DS	Value: 0.000000
+(0019,10AF)	                                                	VR: DS	Value: 0.000000
+(0019,10B0)	                                                	VR: DS	Value: 0.000000
+(0019,10B1)	                                                	VR: DS	Value: 0.000000
+(0019,10B2)	                                                	VR: DS	Value: 0.000000
+(0019,10B3)	                                                	VR: DS	Value: 0.000000
+(0019,10B4)	                                                	VR: DS	Value: 0.000000
+(0019,10B5)	                                                	VR: DS	Value: 0.000000
+(0019,10B6)	                                                	VR: DS	Value: 0.000000
+(0019,10B7)	                                                	VR: DS	Value: 0.000000
+(0019,10B8)	                                                	VR: DS	Value: 1.000000
+(0019,10B9)	                                                	VR: DS	Value: 0.000000
+(0019,10BA)	                                                	VR: DS	Value: 0.000000
+(0019,10BB)	                                                	VR: DS	Value: 0.447000
+(0019,10BC)	                                                	VR: DS	Value: 0.275000
+(0019,10BD)	                                                	VR: DS	Value: 0.851000
+(0019,10BE)	                                                	VR: DS	Value: 0.000000
+(0019,10C0)	                                                	VR: SS	Value: 2 
+(0019,10C2)	                                                	VR: SS	Value: 9990 
+(0019,10C3)	                                                	VR: SS	Value: 9990 
+(0019,10C4)	                                                	VR: SS	Value: 9990 
+(0019,10C5)	                                                	VR: SS	Value: 9990 
+(0019,10C6)	                                                	VR: SS	Value: 9990 
+(0019,10C7)	                                                	VR: SS	Value: 9990 
+(0019,10C8)	                                                	VR: SS	Value: 0 
+(0019,10C9)	                                                	VR: SS	Value: 0 
+(0019,10CA)	                                                	VR: SS	Value: 0 
+(0019,10CB)	                                                	VR: SS	Value: 0 
+(0019,10CC)	                                                	VR: SS	Value: 0 
+(0019,10CD)	                                                	VR: SS	Value: 0 
+(0019,10CE)	                                                	VR: SS	Value: 2 
+(0019,10CF)	                                                	VR: SS	Value: 0 
+(0019,10D2)	                                                	VR: SS	Value: 0 
+(0019,10D3)	                                                	VR: SH	
+(0019,10D5)	                                                	VR: SS	Value: 3 
+(0019,10D7)	                                                	VR: SS	Value: 0 
+(0019,10D8)	                                                	VR: SS	Value: 0 
+(0019,10D9)	                                                	VR: DS	Value: 0.000000
+(0019,10DF)	                                                	VR: DS	Value: 1.000000
+(0019,10E0)	                                                	VR: DS	Value: 6.000000
+(0019,10E2)	                                                	VR: DS	Value: 0.000000
+(0019,10F2)	                                                	VR: SS	Value: 0 
+(0019,10F9)	                                                	VR: DS	Value: 119 
+(0020,000D)	Study Instance UID                              	VR: UI	Value: 1.2.826.0.1.3680043.2.97.1.1.3314682540.2304181108388550
+(0020,000E)	Series Instance UID                             	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.21822.1682492210.34
+(0020,0010)	Study ID                                        	VR: SH	Value: 24318 
+(0020,0011)	Series Number                                   	VR: IS	Value: 5 
+(0020,0012)	Acquisition Number                              	VR: IS	Value: 1 
+(0020,0013)	Instance Number                                 	VR: IS	Value: 122 
+(0020,0032)	Image Position (Patient)                        	VR: DS	Value: -104.752\-142.397\21.6484 
+(0020,0037)	Image Orientation (Patient)                     	VR: DS	Value: 0.999656\-0.00486658\-0.0257613\0.0133401\0.940324\0.340018 
+(0020,0052)	Frame of Reference UID                          	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.21822.1682492210.26
+(0020,0060)	Laterality                                      	VR: CS	
+(0020,1002)	Images in Acquisition                           	VR: IS	Value: 217 
+(0020,1040)	Position Reference Indicator                    	VR: LO	
+(0020,1041)	Slice Location                                  	VR: DS	Value: 56.08166122 
+(0020,9056)	Stack ID                                        	VR: SH	Value: 1 
+(0020,9057)	In-Stack Position Number                        	VR: UL	Value: 29 
+(0021,0010)	                                                	VR: LO	Value: GEMS_RELA_01
+(0021,1035)	                                                	VR: SS	Value: 1 
+(0021,1036)	                                                	VR: SS	Value: 14 
+(0021,1037)	                                                	VR: SS	Value: 16 
+(0021,104F)	                                                	VR: SS	Value: 31 
+(0021,1050)	                                                	VR: SS	Value: 0 
+(0021,1051)	                                                	VR: DS	Value: 0.000000
+(0021,1052)	                                                	VR: DS	Value: 0.000000
+(0021,1053)	                                                	VR: DS	Value: 0.000000
+(0021,1056)	                                                	VR: SL	Value: 0 
+(0021,1057)	                                                	VR: SL	Value: 0 
+(0021,1058)	                                                	VR: SL	Value: 0 
+(0021,1059)	                                                	VR: SL	Value: 0 
+(0021,105A)	                                                	VR: SL	Value: 16 
+(0021,105B)	                                                	VR: DS	Value: 0.000000
+(0021,105C)	                                                	VR: DS	Value: 0.000000
+(0021,105D)	                                                	VR: DS	Value: 0.000000
+(0021,105E)	                                                	VR: DS	Value: 0.000000
+(0021,105F)	                                                	VR: DS	Value: 0.000000
+(0021,1081)	                                                	VR: DS	Value: 0 
+(0021,1082)	                                                	VR: DS	Value: 0 
+(0021,1083)	                                                	VR: DS	Value: 0 
+(0021,1084)	                                                	VR: DS	Value: 0 
+(0023,0010)	                                                	VR: LO	Value: GEMS_STDY_01
+(0023,1070)	                                                	VR: FD	Value: 0.000000 
+(0023,1074)	                                                	VR: SL	Value: 0 
+(0023,107D)	                                                	VR: SS	Value: 0 
+(0023,1080)	                                                	VR: SQ	
+	(0032,1064)	Requested Procedure Code Sequence               	VR: SQ	
+		(0008,0100)	Code Value                                      	VR: SH	Value: 4F12
+		(0008,0102)	Coding Scheme Designator                        	VR: SH	Value: RADIO 
+		(0008,0104)	Code Meaning                                    	VR: LO	Value: RM
+	(0040,0255)	Performed Procedure Type Description            	VR: LO	
+(0025,0010)	                                                	VR: LO	Value: GEMS_SERS_01
+(0025,1006)	                                                	VR: SS	Value: 0 
+(0025,1007)	                                                	VR: SL	Value: 217 
+(0025,1010)	                                                	VR: SL	Value: 0 
+(0025,1011)	                                                	VR: SS	Value: 1 
+(0025,1014)	                                                	VR: SL	Value: 0 
+(0025,1017)	                                                	VR: SL	Value: 0 
+(0025,1018)	                                                	VR: SL	Value: 0 
+(0025,1019)	                                                	VR: SL	Value: 217 
+(0025,101A)	                                                	VR: SH	Value: MRGE3T
+(0025,101B)	                                                	VR: OB	Value: 0
+(0027,0010)	                                                	VR: LO	Value: GEMS_IMAG_01
+(0027,1006)	                                                	VR: SL	Value: 0 
+(0027,1010)	                                                	VR: SS	Value: 0 
+(0027,1030)	                                                	VR: SH	
+(0027,1031)	                                                	VR: SS	Value: 1 
+(0027,1032)	                                                	VR: SS	Value: 0 
+(0027,1033)	                                                	VR: UL	Value: 1140850720 
+(0027,1035)	                                                	VR: SS	Value: 16 
+(0027,1040)	                                                	VR: SH	Value: S 
+(0027,1041)	                                                	VR: FL	Value: 56.081661 
+(0027,1060)	                                                	VR: FL	Value: 160.000000 
+(0027,1061)	                                                	VR: FL	Value: 256.000000 
+(0027,1062)	                                                	VR: FL	Value: 4.000000 
+(0028,0002)	Samples per Pixel                               	VR: US	Value: 1 
+(0028,0004)	Photometric Interpretation                      	VR: CS	Value: MONOCHROME2 
+(0028,0010)	Rows                                            	VR: US	Value: 256 
+(0028,0011)	Columns                                         	VR: US	Value: 256 
+(0028,0030)	Pixel Spacing                                   	VR: DS	Value: 0.8594\0.8594 
+(0028,0100)	Bits Allocated                                  	VR: US	Value: 16 
+(0028,0101)	Bits Stored                                     	VR: US	Value: 16 
+(0028,0102)	High Bit                                        	VR: US	Value: 15 
+(0028,0103)	Pixel Representation                            	VR: US	Value: 1 
+(0028,0106)	Smallest Image Pixel Value                      	VR: SS	Value: 0 
+(0028,0107)	Largest Image Pixel Value                       	VR: SS	Value: 1069 
+(0028,1050)	Window Center                                   	VR: DS	Value: 534 
+(0028,1051)	Window Width                                    	VR: DS	Value: 1069
+(0029,0010)	                                                	VR: LO	Value: GEMS_IMPS_01
+(0029,1015)	                                                	VR: SL	Value: 0 
+(0029,1016)	                                                	VR: SL	Value: 0 
+(0029,1017)	                                                	VR: SL	Value: 0 
+(0029,1018)	                                                	VR: SL	Value: 0 
+(0029,1026)	                                                	VR: SS	Value: 2 
+(0029,1034)	                                                	VR: SL	Value: 16384 
+(0029,1035)	                                                	VR: SL	Value: 0 
+(0032,1033)	Requesting Service                              	VR: LO	Value: 
+(0038,0010)	Admission ID                                    	VR: LO	Value: 
+(0040,0242)	Performed Station Name                          	VR: SH	Value: MRGE3T
+(0040,0243)	Performed Location                              	VR: SH	Value: MRGE
+(0040,0244)	Performed Procedure Step Start Date             	VR: DA	Value: 20230426
+(0040,0245)	Performed Procedure Step Start Time             	VR: TM	Value: 140633
+(0040,0253)	Performed Procedure Step ID                     	VR: SH	Value: 5718.1682510793 
+(0040,0254)	Performed Procedure Step Description            	VR: LO	Value: RM 
+(0040,0275)	Request Attributes Sequence                     	VR: SQ	
+	(0032,1060)	Requested Procedure Description                 	VR: LO	Value: RM 
+	(0040,0007)	Scheduled Procedure Step Description            	VR: LO	Value: RM 
+	(0040,0008)	Scheduled Protocol Code Sequence                	VR: SQ	
+		(0008,0100)	Code Value                                      	VR: SH	Value: 4F12
+		(0008,0102)	Coding Scheme Designator                        	VR: SH	Value: RADIO 
+		(0008,0104)	Code Meaning                                    	VR: LO	Value: RM 
+	(0040,0009)	Scheduled Procedure Step ID                     	VR: SH	Value: 4F12
+	(0040,1001)	Requested Procedure ID                          	VR: SH	Value: Unknown value 
+(0043,0010)	                                                	VR: LO	Value: GEMS_PARM_01
+(0043,1001)	                                                	VR: SS	Value: 5 
+(0043,1002)	                                                	VR: SS	Value: 4 
+(0043,1003)	                                                	VR: SS	Value: -10 
+(0043,1004)	                                                	VR: SS	Value: -25 
+(0043,1006)	                                                	VR: SS	Value: 1 
+(0043,1007)	                                                	VR: SS	Value: 0 
+(0043,1008)	                                                	VR: SS	Value: 0 
+(0043,1009)	                                                	VR: SS	Value: 0 
+(0043,100A)	                                                	VR: SS	Value: 1 
+(0043,100B)	                                                	VR: DS	Value: 0.000000
+(0043,100C)	                                                	VR: DS	Value: 100.000000
+(0043,100D)	                                                	VR: DS	Value: 99.580002 
+(0043,100E)	                                                	VR: DS	Value: 73.089996 
+(0043,1010)	                                                	VR: US	Value: 0 
+(0043,101C)	                                                	VR: SS	Value: 0 
+(0043,101D)	                                                	VR: SS	Value: 0 
+(0043,1028)	                                                	VR: OB	Value: 0
+(0043,1029)	                                                	VR: OB	Value: 0
+(0043,102A)	                                                	VR: OB	Value: 0
+(0043,102C)	                                                	VR: SS	Value: 856 
+(0043,102E)	                                                	VR: SH	
+(0043,102F)	                                                	VR: SS	Value: 0 
+(0043,1030)	                                                	VR: SS	Value: 16 
+(0043,1032)	                                                	VR: SS	Value: 2 
+(0043,1033)	                                                	VR: FL	Value: 0.000000 
+(0043,1034)	                                                	VR: IS	Value: 0 
+(0043,1035)	                                                	VR: UL	Value: 2 
+(0043,1036)	                                                	VR: UL	Value: 0 
+(0043,1037)	                                                	VR: UL	Value: 0 
+(0043,1038)	                                                	VR: FL	Value: 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+(0043,1039)	                                                	VR: IS	Value: 1000\8\0\0
+(0043,1060)	                                                	VR: IS	Value: 0\0\0\0\0\0\0\0 
+(0043,1061)	                                                	VR: UI	Value: 1.2.826.0.1.3680043.2.97.1.1.3314682540.2304181108388550
+(0043,1062)	                                                	VR: SH	Value: 24318 
+(0043,106F)	                                                	VR: DS	Value: 0\0\0\0 
+(0043,107D)	                                                	VR: US	Value: 0 
+(0043,1080)	                                                	VR: LO	Value: A:\INVIOOPorvJn6rmqnVtabBmQu4yXlK17\a60000001a1a350f\P1:0\P2:0\P3:0\P4:0
+(0043,1081)	                                                	VR: LO	Value: C-GE_HDx 8HRBrain 
+(0043,1082)	                                                	VR: LO	Value: SRMode=200\GCoilType=8\gradientAmp=8920\lineFreq=50\RFampType=15\DerateGrad=Yes 
+(0043,1083)	                                                	VR: DS	Value: 0.5\1 
+(0043,1084)	                                                	VR: LO	Value: 10000\7\4\1\asset\YES\ASSET 
+(0043,1088)	                                                	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.21822.1682492210.33
+(0043,1089)	                                                	VR: LO	Value: IEC\IEC_FIRST_LEVEL\IEC_FIRST_LEVEL 
+(0043,108A)	                                                	VR: CS	Value: COL 
+(0043,1090)	                                                	VR: LO	Value: WHOLE_BODY_6_MIN\LOCAL_PEAK_6_MIN\PARTIAL_BODY_6MIN 
+(0043,1091)	                                                	VR: DS	Value: 0.8863\1.77266\0.88633
+(0043,1095)	                                                	VR: LO	
+(0043,1096)	                                                	VR: CS	Value: RESEARCH
+(0043,1097)	                                                	VR: LO	Value: 4\1\1.5 0.2 0.2 2.0 64 0.4 1.05\1.5 0.2 0.2 2.0 64 0.4 1.05\1.5 0.2 0.2 2.0 64 0.4 1.05\100\0\0\
+(0043,1098)	                                                	VR: UI	Value: 1.2.840.113619.2.374.15512023.3735979.21822.1682492210.33
+(0043,109A)	                                                	VR: IS	Value: 1 
+(0043,10AA)	                                                	VR: LO	Value: rev=2;a=1;b=10.0;c=0.0;d=1.0;e=0.00;f=12.00\rev=2;g=80.0;h=10.0;i=1.2 
+(0043,10B3)	                                                	VR: DS	Value: 0 
+(7FE0,0010)	Pixel Data    
